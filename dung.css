@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100% vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 24px;
+    line-height: 40px;
+}
+.header > .header-item {
+    display: flex;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 80px;
+}
+.header-item > .item {
+    display: flex;
+    line-height: 40px;
+    margin: 0 16px;
+}
+.header-item > .item > p {
+    font-size: 9px;
+    font-weight: 700;
+}
+.header-item > .item > i {
+    line-height: 40px;
+    font-size: 8px;
+    color: #777;
+    margin-left: 2px;
+}
+.header > .header-nav {
+    list-style: none;
+    display: flex;
+    line-height: 40px;
+    margin-left: 60px;
+}
+.header > .header-nav > .nav {
+    line-height: 40px;
+    margin: 0 4px;
+}
+.header > .header-nav > .nav > i {
+    line-height: 40px;
+    font-size: 10px;
+}
+.conten {
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.conten > h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.conten > p {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.conten-item {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+.conten > .conten-item > .conten-nav {
+    display: block;
+    list-style: none;
+    width: 25%;
+    margin: 10px 0;
+}
+.conten-item > .conten-nav > li {
+    width: 100%;
+}
+.conten-nav > li > img {
+    width: 80%;
+    margin: 2px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #999;
+}
+.conten-item > .conten-nav > li > span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.conten-item > .conten-nav > li > p {
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    color: red;
+    margin: 4px 0;
+}
